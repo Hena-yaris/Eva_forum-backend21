@@ -29,7 +29,7 @@ app.use("/api/users", userRoutes)
 app.use("/api/questions", questionRouts)
 app.use("/api/answers",answerRouters)
 
-const port = process.env.PORT || 7000;
+const port = process.env.PORT;
 
 async function start() {
     try {
